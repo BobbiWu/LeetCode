@@ -15,6 +15,10 @@ public class LinkedListCycle_141 {
         System.out.println(hasCycle(head));
     }
 
+    /**
+     *解题思路：
+     * 判断链表中是否有环，可以用快慢指针，因为如果有环到话，快慢指针一点会有相遇到时候
+     */
     public static boolean hasCycle(ListNode head) {
         if (head == null) {
             return false;
@@ -24,7 +28,7 @@ public class LinkedListCycle_141 {
         while (q.next != null && q.next.next != null) {
             p = p.next;
             q = q.next.next;
-            if (q.next == p) {
+            if (q == p) {
                 return true;
             }
         }
