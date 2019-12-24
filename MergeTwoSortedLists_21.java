@@ -35,9 +35,6 @@ public class MergeTwoSortedLists_21 {
      * 合并两个有序的链表，可以遍历循环比较，然后插入，（需要注意移动两个被比较的链表的指针）
      */
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null || l2 == null) {
-            return null;
-        }
         ListNode newNode = new ListNode();
         ListNode newNodeHead = newNode;
         while (l1 != null && l2 != null) {
