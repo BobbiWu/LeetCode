@@ -50,7 +50,7 @@ public class TwoSum_1 {
         }
         for (int i = 0; i < nums.length; i++) {
             int value = target - nums[i];
-            if (map.containsValue(value) && map.get(value) != i) {
+            if (map.containsKey(value) && map.get(value) != i) {
                 return new int[]{i, map.get(value)};
             }
         }
@@ -61,11 +61,10 @@ public class TwoSum_1 {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int value = target - nums[i];
-            if (map.containsValue(value)) {
+            if (map.containsKey(value)) {
                 return new int[]{map.get(value), i};
             }
             map.put(nums[i], i);
-
         }
         return new int[]{};
     }
