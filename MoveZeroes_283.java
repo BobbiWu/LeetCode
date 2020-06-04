@@ -19,7 +19,7 @@ package leetcode;
 public class MoveZeroes_283 {
     public static void main(String[] args) {
         int nums[] = {0, 1, 0, 3, 12};
-        moveZeroes2(nums);
+        moveZeroes3(nums);
     }
 
     /**
@@ -56,4 +56,22 @@ public class MoveZeroes_283 {
             System.out.println(value);
         }
     }
+
+    public static void moveZeroes3(int[] nums) {
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                nums[j]=nums[i];
+                if (j!=i){
+                    nums[i]=0;
+                }
+                j++;
+            }
+        }
+        for (int value:nums){
+            System.out.println(value);
+        }
+    }
+
+
 }
