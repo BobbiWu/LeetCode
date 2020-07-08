@@ -31,7 +31,7 @@ public class DivingBoardLCCI {
         }
         int[] lengths = new int[k + 1];
         for (int i = 0; i <=k; i++) {
-            lengths[i] = (shorter * i + longer * (k - i));
+            lengths[i] = shorter * (k - i) + longer * i;
         }
         return lengths;
     }
