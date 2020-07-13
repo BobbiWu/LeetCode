@@ -1,6 +1,7 @@
 package leetcode.stack_queue;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 /**
  * 239. 滑动窗口最大值
@@ -13,9 +14,12 @@ import java.util.ArrayList;
  */
 public class SlidingWindowMaximum_239 {
     public static void main(String[] args) {
-        int nums[] = {1,  -1};
+        int nums[] = {1, -1};
         int k = 1;
-        maxSlidingWindow(nums, k);
+
+//        int nums[] = {1, 3, -1, -3, 5, 3, 6, 7};
+//        int k = 3;
+        maxSlidingWindow2(nums, k);
     }
 
     /**
@@ -27,15 +31,42 @@ public class SlidingWindowMaximum_239 {
      */
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
-        if (n*k==0) return new int[0];
-        int [] output = new int[n - k + 1];
+        if (n * k == 0) return new int[0];
+        int[] output = new int[n - k + 1];
         for (int i = 0; i < (n - k + 1); i++) {
             int max = Integer.MIN_VALUE;
-            for (int j = i; j < k+i; j++) {
-                max=Math.max(max,nums[j]);
+            for (int j = i; j < k + i; j++) {
+                max = Math.max(max, nums[j]);
             }
-            output[i]=max;
+            output[i] = max;
         }
         return output;
+    }
+
+    /**
+     * 双端队列
+     */
+    public static int[] maxSlidingWindow2(int[] nums, int k) {
+        int n = nums.length;
+        if (nums == null ||n < 2) return nums;
+        LinkedList<Integer> queue = new LinkedList<>();
+        int[] result = new int[n - k + 1];
+        for (int i = 0; i < n; i++) {
+            while (!queue.isEmpty() && nums[queue.peekLast()] <= nums[i]) {
+                //移除队列中小于右边界的元素
+                queue.pollLast();
+            }
+            //添加右边界的元素
+            queue.addLast(i);
+            // 判断当前队列中队首的值是否有效
+            if (queue.peek() <= i - k) {
+                queue.poll();
+            }
+            if (i + 1 >= k) {
+                result[i + 1 - k] = nums[queue.peek()];
+            }
+
+        }
+        return result;
     }
 }
