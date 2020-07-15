@@ -1,5 +1,7 @@
 package leetcode.stack_queue;
 
+import java.util.Stack;
+
 /**
  * 84. 柱状图中最大的矩形
  * 给定 n 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
@@ -9,11 +11,12 @@ package leetcode.stack_queue;
 public class LargestRectangleInHistogram_84 {
     public static void main(String[] args) {
         int heights[] = {2, 1, 5, 6, 2, 3};
-        System.out.println(largestRectangleArea(heights));
+        System.out.println(largestRectangleAre2(heights));
     }
 
     /**
      * 暴力法
+     *
      * @param heights
      * @return
      */
@@ -35,5 +38,25 @@ public class LargestRectangleInHistogram_84 {
         }
         return area;
 
+    }
+
+    /**
+     * 单调栈
+     */
+    public static int largestRectangleAre2(int[] heights) {
+        int area = 0;
+        int n = heights.length;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(-1);
+        for (int i = 0; i < n; i++) {
+            while (stack.peek()!=-1 && heights[i]<heights[stack.peek()]) {
+                area = Math.max(heights[stack.pop()] * (i - stack.peek() - 1), area);
+            }
+            stack.push(i);
+        }
+        while (stack.peek() != -1) {
+            area = Math.max(heights[stack.pop()] * (n - stack.peek() - 1), area);
+        }
+        return area;
     }
 }
