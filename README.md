@@ -4,3 +4,7 @@
 #####  array_linked 数组与链表
 #####  map 哈希表映射集合
 #####  tree 树,图
+| 题号 | 题目|
+| :---: | :---: |
+| 94| [BinaryTreeInorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreeInorderTraversal_94.java)
+| 144| [BinaryTreePreorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreePreorderTraversal_144.java)
