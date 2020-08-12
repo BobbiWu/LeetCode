@@ -12,3 +12,4 @@
 | 94| [BinaryTreeInorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreeInorderTraversal_94.java)
 | 144| [BinaryTreePreorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreePreorderTraversal_144.java)
 | 144| [N_aryTreePreorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/N_aryTreePreorderTraversal_589.java)
+| 144| [MaximumDepth0fBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/tree/MaximumDepth0fBinaryTree_104.java)
