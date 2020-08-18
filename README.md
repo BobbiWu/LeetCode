@@ -17,3 +17,4 @@
 | 题号 | 题目|
 | :---: | :---: |
 | 70| [ClimbingStairs](https://github.com/wubobo952/LeetCode/blob/master/recursion/ClimbingStairs_70.java)
+| 226| [InvertBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/InvertBinaryTree_226.java)
