@@ -17,7 +17,7 @@ public class ImplementStr_28 {
     public static void main(String[] args) {
         String haystack = "aaa";
         String needle = "a";
-        System.out.println(strStr(haystack, needle));
+        System.out.println(strStr2(haystack, needle));
     }
 
     public static int strStr(String haystack, String needle) {
@@ -31,4 +31,26 @@ public class ImplementStr_28 {
         return -1;
     }
 
+    public static int strStr2(String haystack, String needle) {
+        int hayL = haystack.length();
+        int needL = needle.length();
+        if (needL == 0) return 0;
+        int lP = 0;
+        //是否超过较短字符串短长度
+        while (lP < hayL - needL + 1) {
+            //只有长字符串的元素等于短字符串的第一个元素才进行比较
+            while (lP < hayL - needL + 1 && haystack.charAt(lP) != needle.charAt(0)) ++lP;
+            int sp = 0;
+            int current = 0;//当前的比较下标
+            while (sp < needL && lP < hayL && haystack.charAt(lP) == needle.charAt(sp)) {
+                ++lP;
+                ++sp;
+                ++current;
+            }
+            if (current == needL) return lP - needL;
+            //如果有元素不一样的时候
+            lP = lP - current + 1;
+        }
+        return -1;
+    }
 }
