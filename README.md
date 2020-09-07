@@ -15,7 +15,8 @@
 | 144| [N_aryTreePreorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/N_aryTreePreorderTraversal_589.java)
 | 104| [MaximumDepth0fBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/tree/MaximumDepth0fBinaryTree_104.java)
 ##### recursion 递归
-| 题号 | 题目|
-| :---: | :---: |
-| 70| [ClimbingStairs](https://github.com/wubobo952/LeetCode/blob/master/recursion/ClimbingStairs_70.java)
-| 226| [InvertBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/InvertBinaryTree_226.java)
+| 题号 | LeetCode|题目|
+| :---: | :---: |:---: |
+| 70| [ClimbingStairs](https://github.com/wubobo952/LeetCode/blob/master/recursion/ClimbingStairs_70.java)｜爬楼梯
+| 226| [InvertBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/InvertBinaryTree_226.java)｜翻转二叉树
+| 98| [ValidateBinarySearchTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/ValidateBinarySearchTree_98.java)｜验证二叉搜索树
