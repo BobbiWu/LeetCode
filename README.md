@@ -12,11 +12,13 @@
 #####  array_linked 数组与链表
 | 题号 | 题目|
 | :---: | :---: |
-| 88| [ValidPalindrome](https://github.com/wubobo952/LeetCode/blob/master/array_linked/MergeSortedArray_88.java)｜合并两个有序数组
-| 15| [ImplementStr](https://github.com/wubobo952/LeetCode/blob/master/array_linked/Sum3_15.java)｜三数之和
+| 88| [MergeSortedArray](https://github.com/wubobo952/LeetCode/blob/master/array_linked/MergeSortedArray_88.java)｜合并两个有序数组
+| 15| [Sum3](https://github.com/wubobo952/LeetCode/blob/master/array_linked/Sum3_15.java)｜三数之和
 | 24| [SwapNodesInPairs](https://github.com/wubobo952/LeetCode/blob/master/array_linked/SwapNodesInPairs_24.java)｜两两交换链表中的节点
 #####  map 哈希表映射集合
-| 49| [ValidPalindrome](https://github.com/wubobo952/LeetCode/blob/master/map/GroupAnagrams_49.java)｜字母异位词分组
+| 题号 | 题目|
+| :---: | :---: |
+| 49| [GroupAnagrams](https://github.com/wubobo952/LeetCode/blob/master/map/GroupAnagrams_49.java)｜字母异位词分组
 #####  tree 树,图
 | 题号 | 题目|
 | :---: | :---: |
@@ -30,3 +32,6 @@
 | 70| [ClimbingStairs](https://github.com/wubobo952/LeetCode/blob/master/recursion/ClimbingStairs_70.java)｜爬楼梯
 | 226| [InvertBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/InvertBinaryTree_226.java)｜翻转二叉树
 | 98| [ValidateBinarySearchTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/ValidateBinarySearchTree_98.java)｜验证二叉搜索树
+##### divide_conquer 分治,回溯
+| 题号 | 题目|
+| :---: | :---: |
