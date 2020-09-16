@@ -35,3 +35,4 @@
 ##### divide_conquer 分治,回溯
 | 题号 | 题目|
 | :---: | :---: |
+| 22| [GenerateParentheses](https://github.com/wubobo952/LeetCode/blob/master/divide_conquer/GenerateParentheses_22.java)｜括号生成
