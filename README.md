@@ -4,6 +4,7 @@
 | :---: | :---: |
 | 125| [ValidPalindrome](https://github.com/wubobo952/LeetCode/blob/master/random/ValidPalindrome_125.java)｜验证回文串
 | 28| [ImplementStr](https://github.com/wubobo952/LeetCode/blob/master/random/ImplementStr_28.java)｜实现 strStr() 函数
+| 28| [ReverseString](https://github.com/wubobo952/LeetCode/blob/master/random/ReverseString_344.java)｜反转字符串
 #####  stack_queue 栈和队列
 | 题号 | 题目|
 | :---: | :---: |

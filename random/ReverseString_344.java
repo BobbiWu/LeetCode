@@ -26,21 +26,38 @@ public class ReverseString_344 {
     public static void main(String[] args) {
         char[] s = {'h', 'e', 'l', 'l', 'o'};
 //        char[] s = {'H', 'a', 'n', 'n', 'a','H'};
-        reverseString(s);
+        reverseString2(s);
+        System.out.println(s);
     }
 
     /**
-     *解题思路：
+     * 解题思路：
      * 双指针，循环交换位置
      */
     public static void reverseString(char[] s) {
         int length = s.length;
-        int j = length-1;
+        int j = length - 1;
         for (int i = 0; i < length / 2; i++) {
             char temp = s[j];
             s[j] = s[i];
             s[i] = temp;
             j--;
         }
+    }
+
+    /**
+     * 递归实现
+     */
+    public static void reverseString2(char[] s) {
+        int size = s.length - 1;
+        reverse(s, 0, size);
+    }
+
+    private static void reverse(char[] s, int left, int right) {
+        if (left >= right) return;
+        char tmp = s[left];
+        s[left++] = s[right];
+        s[right--] = tmp;
+        reverse(s,left,right);
     }
 }
