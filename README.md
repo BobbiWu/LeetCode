@@ -10,6 +10,7 @@
 | :---: | :---: |
 | 84| [LargestRectangleInHistogram](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/LargestRectangleInHistogram_84.java)｜验证回文串
 | 239| [SlidingWindowMaximum](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/SlidingWindowMaximum_239.java)｜实现 strStr() 函数
+| ReverseStack| [ReverseStack](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/ReverseStack.java)｜反转栈
 #####  array_linked 数组与链表
 | 题号 | 题目|
 | :---: | :---: |
