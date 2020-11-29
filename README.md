@@ -49,3 +49,10 @@
 | :---: | :---: |
 | 322| [Coin_Change](https://github.com/wubobo952/LeetCode/blob/master/greedy_algorithm/Coin_Change_322.java)｜零钱兑换
 
+
+
+# kotlin
+#####  random 随机题
+| 题号 | 题目|
+| :---: | :---: |
+| 快排| [QuickSort](https://github.com/wubobo952/LeetCode/blob/master/random/kt/QuickSort.java)｜快排
