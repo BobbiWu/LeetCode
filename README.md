@@ -55,4 +55,5 @@
 #####  random 随机题
 | 题号 | 题目|
 | :---: | :---: |
-| 快排| [QuickSort](https://github.com/wubobo952/LeetCode/blob/master/random/kt/QuickSort.java)｜快排
+| 快排| [QuickSort](https://github.com/wubobo952/LeetCode/blob/master/random/kt/QuickSort.kt)｜快排
+| 快排| [QuickSort](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ValidateBinarySearchTree.kt)｜验证二叉树
