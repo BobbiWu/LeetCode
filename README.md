@@ -58,3 +58,4 @@
 | :---: | :---: |
 | 快排| [QuickSort](https://github.com/wubobo952/LeetCode/blob/master/random/kt/QuickSort.kt)｜快排
 | 验证二叉树| [ValidateBinarySearchTree](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ValidateBinarySearchTree.kt)｜验证二叉树
+| 反转栈| [ReverseStack](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ReverseStack.kt)｜反转栈
