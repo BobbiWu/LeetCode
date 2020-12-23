@@ -33,7 +33,7 @@ package leetcode.recursion;
  */
 public class FibonacciNumber_509 {
     public static void main(String[] args) {
-        System.out.println(fib(4));
+        System.out.println(fib2(3));
     }
 
     public static int fib(int N) {
@@ -41,5 +41,21 @@ public class FibonacciNumber_509 {
             return N;
         }
         return fib(N - 1) + fib(N - 2);
+    }
+
+    //循环
+    public static int fib2(int N) {
+        if (N < 1) {
+            return N;
+        }
+        int a = 0;
+        int b = 1;
+        int c = a + b;
+        for (int i = 2; i <= N; i++) {
+            c = a + b;
+            a = b;
+            b = c;
+        }
+        return c;
     }
 }
