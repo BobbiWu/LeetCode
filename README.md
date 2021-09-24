@@ -63,3 +63,4 @@
 | 买卖股票最佳时机| [BestTimeToBuyAndSellStock_121](https://github.com/wubobo952/LeetCode/blob/master/random/kt/BestTimeToBuyAndSellStock_121.kt)｜买卖股票最佳时机
 | 滑动窗口最大值| [SlidingWindowMaximum_239](https://github.com/wubobo952/LeetCode/blob/master/random/kt/SlidingWindowMaximum_239.kt)｜滑动窗口最大值
 | 环形链表| [LinkedListCycle_141](https://github.com/wubobo952/LeetCode/blob/master/random/kt/LinkedListCycle_141.kt)｜环形链表
+| 有效括号| [ValidParentheses_20](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ValidParentheses_20.kt)｜有效括号
