@@ -1,4 +1,8 @@
 # 数据结构与算法练习
+#####  Interview
+| 题号 | 链接| 题目|
+| :---: | :---: | :---: |
+| SortStackByStack| [SortStackByStack](https://github.com/wubobo952/LeetCode/blob/master/interview/SortStackByStack.java)|用一个栈实现另一个栈的排序|
 #####  随机题
 | 题号 | 链接| 题目|
 | :---: | :---: | :---: |
