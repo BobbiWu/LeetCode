@@ -1,5 +1,6 @@
 package leetcode.random.kt
 
+import java.util.*
 import kotlin.math.max
 
 /**
@@ -14,9 +15,12 @@ import kotlin.math.max
 object SlidingWindowMaximum_239 {
     @JvmStatic
     fun main(args: Array<String>) {
-        val nums = intArrayOf(1, -1)
-        val k = 1
-        maxSlidingWindow(nums, k)
+        val nums = intArrayOf(1, 3, -1, -3, 5, 3, 6, 7)
+        val k = 3
+        val arrays = maxSlidingWindow2(nums, k)
+        arrays.forEach {
+            println(it)
+        }
     }
 
 
@@ -39,4 +43,32 @@ object SlidingWindowMaximum_239 {
         return output
     }
 
+    /**
+     * 双端队列
+     * 解题思路：
+     * 1. 用一个双端队列来维护最大值，在窗口范围内，如果队列为空，则把数组的下标全部放入队列，
+     * 如果队列不为空的情况下，循环判断数组 i 下标的值，大于或者小于 队列的最后一个下标的值，如果队列最后一个下标的值小于
+     * 则队尾的出列，否则加入到队尾。
+     * 2. 再判断队头的范围是否在 k 范围之内，不在则删除队头
+     * 3. 把队列的值赋值给数组
+     *
+     */
+    private fun maxSlidingWindow2(nums: IntArray, k: Int): IntArray {
+        val arrays = IntArray(nums.size - k + 1)
+        val maxQueue = LinkedList<Int>()
+        var index = 0
+        for (i in nums.indices) {
+            while (maxQueue.isNotEmpty() && nums[maxQueue.peekLast()] <= nums[i]) {
+                maxQueue.pollLast()
+            }
+            maxQueue.addLast(i)
+            if (maxQueue.peekFirst() == i - k) {
+                maxQueue.pollFirst()
+            }
+            if (i >= k - 1) {
+                arrays[index++] = nums[maxQueue.peekFirst()]
+            }
+        }
+        return arrays
+    }
 }
