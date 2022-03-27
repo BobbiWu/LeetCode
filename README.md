@@ -5,6 +5,7 @@
 | SortStackByStack| [SortStackByStack](https://github.com/wubobo952/LeetCode/blob/master/interview/SortStackByStack.java)|用一个栈实现另一个栈的排序|
 | PostfixExpression| [PostfixExpression](https://github.com/wubobo952/LeetCode/blob/master/interview/PostfixExpression.java)|后缀表达式|
 | AsteroidCollision| [AsteroidCollision](https://github.com/wubobo952/LeetCode/blob/master/interview/AsteroidCollision.java)|小行星碰撞|
+| DailyTemperatures| [DailyTemperatures](https://github.com/wubobo952/LeetCode/blob/master/interview/DailyTemperatures.java)|每日温度|
 #####  随机题
 | 题号 | 链接| 题目|
 | :---: | :---: | :---: |
