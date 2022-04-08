@@ -17,7 +17,7 @@
 ##### 栈和队列
 | 题号 | 链接| 题目|
 | :---: | :---: |:---: |
-| 84| [LargestRectangleInHistogram](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/LargestRectangleInHistogram_84.java)|验证回文串|
+| 84| [LargestRectangleInHistogram](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/LargestRectangleInHistogram_84.java)|柱状图中最大的矩形|
 | 239| [SlidingWindowMaximum](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/SlidingWindowMaximum_239.java)|实现 strStr() 函数|
 | ReverseStack| [ReverseStack](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/ReverseStack.java)|反转栈|
 ##### 数组与链表

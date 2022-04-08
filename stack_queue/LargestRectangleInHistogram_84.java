@@ -42,6 +42,9 @@ public class LargestRectangleInHistogram_84 {
 
     /**
      * 单调栈
+     *
+     * 解题思路：运用一个单调栈，让栈保证从小到大的顺序排序，如果新进的面积比栈顶面积大
+     * 那么先把栈顶的出栈，并且计算面积。最后把栈剩下的元素也出战计算面积
      */
     public static int largestRectangleAre2(int[] heights) {
         int area = 0;
