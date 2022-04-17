@@ -6,6 +6,7 @@
 | PostfixExpression| [PostfixExpression](https://github.com/wubobo952/LeetCode/blob/master/interview/PostfixExpression.java)|后缀表达式|
 | AsteroidCollision| [AsteroidCollision](https://github.com/wubobo952/LeetCode/blob/master/interview/AsteroidCollision.java)|小行星碰撞|
 | DailyTemperatures| [DailyTemperatures](https://github.com/wubobo952/LeetCode/blob/master/interview/DailyTemperatures.java)|每日温度|
+| MaximalRectangle| [DailyTemperatures](https://github.com/wubobo952/LeetCode/blob/master/interview/MaximalRectangle.java)|矩阵中的最大矩形|
 #####  随机题
 | 题号 | 链接| 题目|
 | :---: | :---: | :---: |
