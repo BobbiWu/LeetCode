@@ -1,5 +1,5 @@
 # 数据结构与算法练习
-#####  剑指，面试算法题库
+##  剑指，面试算法题库
 | 题号 | 链接| 题目|
 | :---: | :---: | :---: |
 | SortStackByStack| [SortStackByStack](https://github.com/wubobo952/LeetCode/blob/master/interview/SortStackByStack.java)|用一个栈实现另一个栈的排序|
@@ -7,6 +7,8 @@
 | AsteroidCollision| [AsteroidCollision](https://github.com/wubobo952/LeetCode/blob/master/interview/AsteroidCollision.java)|小行星碰撞|
 | DailyTemperatures| [DailyTemperatures](https://github.com/wubobo952/LeetCode/blob/master/interview/DailyTemperatures.java)|每日温度|
 | MaximalRectangle| [DailyTemperatures](https://github.com/wubobo952/LeetCode/blob/master/interview/MaximalRectangle.java)|矩阵中的最大矩形|
+
+## LeetCode
 #####  随机题
 | 题号 | 链接| 题目|
 | :---: | :---: | :---: |
@@ -46,7 +48,7 @@
 | 226| [InvertBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/InvertBinaryTree_226.java)|翻转二叉树|
 | 98| [ValidateBinarySearchTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/ValidateBinarySearchTree_98.java)|验证二叉搜索树|
 | 509| [FibonacciNumber](https://github.com/wubobo952/LeetCode/blob/master/recursion/FibonacciNumber_509.java)|斐波那契|
-##### Divide_conquer 分治,回溯
+#####  分治,回溯
 | 题号 | 链接| 题目|
 | :---: | :---: |:---: |
 | 22| [GenerateParentheses](https://github.com/wubobo952/LeetCode/blob/master/divide_conquer/GenerateParentheses_22.java)|括号生成|
@@ -62,8 +64,7 @@
 
 
 
-# kotlin
-#####  随机题
+## kotlin 随机练习题
 | 题号 | 链接| 题目|
 | :---: | :---: |:---: |
 | 快排| [QuickSort](https://github.com/wubobo952/LeetCode/blob/master/random/kt/QuickSort.kt)|快排|
