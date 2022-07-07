@@ -1,76 +1,63 @@
 # 数据结构与算法练习
 ##  剑指，面试算法题库
-| 题号 | 链接| 题目|
-| :---: | :---: | :---: |
-| SortStackByStack| [SortStackByStack](https://github.com/wubobo952/LeetCode/blob/master/interview/SortStackByStack.java)|用一个栈实现另一个栈的排序|
-| PostfixExpression| [PostfixExpression](https://github.com/wubobo952/LeetCode/blob/master/interview/PostfixExpression.java)|后缀表达式|
-| AsteroidCollision| [AsteroidCollision](https://github.com/wubobo952/LeetCode/blob/master/interview/AsteroidCollision.java)|小行星碰撞|
-| DailyTemperatures| [DailyTemperatures](https://github.com/wubobo952/LeetCode/blob/master/interview/DailyTemperatures.java)|每日温度|
-| MaximalRectangle| [DailyTemperatures](https://github.com/wubobo952/LeetCode/blob/master/interview/MaximalRectangle.java)|矩阵中的最大矩形|
+- [用一个栈实现另一个栈的排序 ](https://github.com/wubobo952/LeetCode/blob/master/interview/SortStackByStack.java)
+- [后缀表达式](https://github.com/wubobo952/LeetCode/blob/master/interview/PostfixExpression.java)
+- [小行星碰撞](https://github.com/wubobo952/LeetCode/blob/master/interview/AsteroidCollision.java)
+- [每日温度](https://github.com/wubobo952/LeetCode/blob/master/interview/DailyTemperatures.java)
+- [矩阵中的最大矩形](https://github.com/wubobo952/LeetCode/blob/master/interview/MaximalRectangle.java)
+- [反转栈](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/ReverseStack.java)
 
 ## LeetCode
 #####  随机题
-| 题号 | 链接| 题目|
-| :---: | :---: | :---: |
-| 125| [ValidPalindrome](https://github.com/wubobo952/LeetCode/blob/master/random/ValidPalindrome_125.java)|验证回文串|
-| 28| [ImplementStr](https://github.com/wubobo952/LeetCode/blob/master/random/ImplementStr_28.java)|实现 strStr() 函数|
-| 344| [ReverseString](https://github.com/wubobo952/LeetCode/blob/master/random/ReverseString_344.java)|反转字符串|
-| 92| [ReverseLinkedListII](https://github.com/wubobo952/LeetCode/blob/master/random/ReverseLinkedListII_92.java)|反转链表 II|
-| 747| [LargestNumberAtLeastTwiceOfOthers_747](https://github.com/BobbiWu/LeetCode/blob/master/random/LargestNumberAtLeastTwiceOfOthers_747.java)|至少是其他数字两倍的最大数|
+- [28.实现 strStr() 函数](https://github.com/wubobo952/LeetCode/blob/master/random/ImplementStr_28.java) ，[Leetcode](https://leetcode.cn/problems/implement-strstr/)
+- [92.反转链表 II](https://github.com/wubobo952/LeetCode/blob/master/random/ReverseLinkedListII_92.java) ，[Leetcode](https://leetcode.cn/problems/reverse-linked-list-ii/)
+- [125.验证回文串](https://github.com/wubobo952/LeetCode/blob/master/random/ValidPalindrome_125.java) ，[Leetcode](https://leetcode.cn/problems/valid-palindrome/)
+- [344.反转字符串](https://github.com/wubobo952/LeetCode/blob/master/random/ReverseString_344.java) ，[Leetcode](https://leetcode.cn/problems/reverse-string/)
+- [747.至少是其他数字两倍的最大数](https://github.com/BobbiWu/LeetCode/blob/master/random/LargestNumberAtLeastTwiceOfOthers_747.java) ，[Leetcode](https://leetcode.cn/problems/largest-number-at-least-twice-of-others/)
+
 ##### 栈和队列
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 84| [LargestRectangleInHistogram](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/LargestRectangleInHistogram_84.java)|柱状图中最大的矩形|
-| 239| [SlidingWindowMaximum](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/SlidingWindowMaximum_239.java)|实现 strStr() 函数|
-| ReverseStack| [ReverseStack](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/ReverseStack.java)|反转栈|
+- [84.柱状图中最大的矩形](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/LargestRectangleInHistogram_84.java) ，[Leetcode](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
+- [239.滑动窗口最大值](https://github.com/wubobo952/LeetCode/blob/master/stack_queue/SlidingWindowMaximum_239.java) ，[Leetcode](https://leetcode.cn/problems/sliding-window-maximum/)
+
 ##### 数组与链表
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 88| [MergeSortedArray](https://github.com/wubobo952/LeetCode/blob/master/array_linked/MergeSortedArray_88.java)|合并两个有序数组|
-| 15| [Sum3](https://github.com/wubobo952/LeetCode/blob/master/array_linked/Sum3_15.java)|三数之和|
-| 24| [SwapNodesInPairs](https://github.com/wubobo952/LeetCode/blob/master/array_linked/SwapNodesInPairs_24.java)|两两交换链表中的节点|
+- [15.三数之和](https://github.com/wubobo952/LeetCode/blob/master/array_linked/Sum3_15.java) ，[Leetcode](https://leetcode.cn/problems/3sum/)
+- [24.两两交换链表中的节点](https://github.com/wubobo952/LeetCode/blob/master/array_linked/SwapNodesInPairs_24.java) ，[Leetcode](https://leetcode.cn/problems/swap-nodes-in-pairs/)
+- [88.合并两个有序数组](https://github.com/wubobo952/LeetCode/blob/master/array_linked/MergeSortedArray_88.java) ，[Leetcode](https://leetcode.cn/problems/merge-sorted-array/)
+
 #####  Map 哈希表映射集合
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 49| [GroupAnagrams](https://github.com/wubobo952/LeetCode/blob/master/map/GroupAnagrams_49.java)|字母异位词分组|
+- [49.字母异位词分组](https://github.com/wubobo952/LeetCode/blob/master/map/GroupAnagrams_49.java) ，[Leetcode](https://leetcode.cn/problems/group-anagrams/)
+
 #####  Tree 树,图
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 94| [BinaryTreeInorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreeInorderTraversal_94.java)|给定一个二叉树返回它的中序遍历|
-| 144| [BinaryTreePreorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreePreorderTraversal_144.java)|给定一个二叉树返回它的前序遍历|
-| 589| [N_aryTreePreorderTraversal](https://github.com/wubobo952/LeetCode/blob/master/tree/N_aryTreePreorderTraversal_589.java)|N叉书的前序遍历|
-| 104| [MaximumDepth0fBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/tree/MaximumDepth0fBinaryTree_104.java)|给定一个二叉树，找出其最大深度|
-| 101| [SymmetricTree](https://github.com/wubobo952/LeetCode/blob/master/tree/SymmetricTree_101.java)|对称树
+- [94.给定一个二叉树返回它的中序遍历](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreeInorderTraversal_94.java) ，[Leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
+- [101.对称树](https://github.com/wubobo952/LeetCode/blob/master/tree/SymmetricTree_101.java) ，[Leetcode](https://leetcode.cn/problems/symmetric-tree/)
+- [104.给定一个二叉树，找出其最大深度](https://github.com/wubobo952/LeetCode/blob/master/tree/MaximumDepth0fBinaryTree_104.java) ，[Leetcode](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)
+- [144.给定一个二叉树返回它的前序遍历](https://github.com/wubobo952/LeetCode/blob/master/tree/BinaryTreePreorderTraversal_144.java) ，[Leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal/)
+- [589.N叉书的前序遍历](https://github.com/wubobo952/LeetCode/blob/master/tree/N_aryTreePreorderTraversal_589.java) ，[Leetcode](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/)
+
 #####  递归
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 70| [ClimbingStairs](https://github.com/wubobo952/LeetCode/blob/master/recursion/ClimbingStairs_70.java)|爬楼梯|
-| 226| [InvertBinaryTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/InvertBinaryTree_226.java)|翻转二叉树|
-| 98| [ValidateBinarySearchTree](https://github.com/wubobo952/LeetCode/blob/master/recursion/ValidateBinarySearchTree_98.java)|验证二叉搜索树|
-| 509| [FibonacciNumber](https://github.com/wubobo952/LeetCode/blob/master/recursion/FibonacciNumber_509.java)|斐波那契|
+- [70.爬楼梯](https://github.com/wubobo952/LeetCode/blob/master/recursion/ClimbingStairs_70.java) ，[Leetcode](https://leetcode-cn.com/problems/climbing-stairs)
+- [98.验证二叉搜索树](https://github.com/wubobo952/LeetCode/blob/master/recursion/ValidateBinarySearchTree_98.java) ，[Leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree)
+- [226.翻转二叉树](https://github.com/wubobo952/LeetCode/blob/master/recursion/InvertBinaryTree_226.java) ，[Leetcode](https://leetcode-cn.com/problems/invert-binary-tree)
+- [509.斐波那契](https://github.com/wubobo952/LeetCode/blob/master/recursion/FibonacciNumber_509.java) ，[Leetcode](https://leetcode.cn/problems/fibonacci-number/)
+
 #####  分治,回溯
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 22| [GenerateParentheses](https://github.com/wubobo952/LeetCode/blob/master/divide_conquer/GenerateParentheses_22.java)|括号生成|
+- [22.括号生成](https://github.com/wubobo952/LeetCode/blob/master/divide_conquer/GenerateParentheses_22.java) ，[Leetcode](https://leetcode.cn/problems/generate-parentheses/)
+
 ##### 深度遍历，广度遍历
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 102| [BinaryTreeLevelOrderTraversal](https://github.com/wubobo952/LeetCode/blob/master/dfs_bfs/BinaryTreeLevelOrderTraversal_102.java)|二叉树的层序遍历|
+- [102.二叉树的层序遍历](https://github.com/wubobo952/LeetCode/blob/master/dfs_bfs/BinaryTreeLevelOrderTraversal_102.java) ，[Leetcode](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
+
 ##### 贪心算法
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 322| [Coin_Change](https://github.com/wubobo952/LeetCode/blob/master/greedy_algorithm/Coin_Change_322.java)|零钱兑换|
-| 455| [AssignCookies](https://github.com/wubobo952/LeetCode/blob/master/greedy_algorithm/AssignCookies_455.java)|分发饼干|
+- [322.零钱兑换](https://github.com/wubobo952/LeetCode/blob/master/greedy_algorithm/Coin_Change_322.java) ，[Leetcode](https://leetcode.cn/problems/coin-change/)
+- [455.分发饼干](https://github.com/wubobo952/LeetCode/blob/master/greedy_algorithm/AssignCookies_455.java) ，[Leetcode](https://leetcode.cn/problems/assign-cookies/)
 
 
 
 ## kotlin 随机练习题
-| 题号 | 链接| 题目|
-| :---: | :---: |:---: |
-| 快排| [QuickSort](https://github.com/wubobo952/LeetCode/blob/master/random/kt/QuickSort.kt)|快排|
-| 验证二叉树| [ValidateBinarySearchTree](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ValidateBinarySearchTree.kt)|验证二叉树|
-| 反转栈| [ReverseStack](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ReverseStack.kt)|反转栈|
-| 买卖股票最佳时机| [BestTimeToBuyAndSellStock_121](https://github.com/wubobo952/LeetCode/blob/master/random/kt/BestTimeToBuyAndSellStock_121.kt)|买卖股票最佳时机|
-| 滑动窗口最大值| [SlidingWindowMaximum_239](https://github.com/wubobo952/LeetCode/blob/master/random/kt/SlidingWindowMaximum_239.kt)|滑动窗口最大值|
-| 环形链表| [LinkedListCycle_141](https://github.com/wubobo952/LeetCode/blob/master/random/kt/LinkedListCycle_141.kt)|环形链表|
-| 有效括号| [ValidParentheses_20](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ValidParentheses_20.kt)|有效括号|
+- [快排](https://github.com/wubobo952/LeetCode/blob/master/random/kt/QuickSort.kt)
+- [反转栈](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ReverseStack.kt)
+- [20.有效括号](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ValidParentheses_20.kt) ，[Leetcode](https://leetcode.cn/problems/valid-parentheses/)
+- [98.验证二叉搜索树](https://github.com/wubobo952/LeetCode/blob/master/random/kt/ValidateBinarySearchTree.kt) ，[Leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree)
+- [121.买卖股票最佳时机](https://github.com/wubobo952/LeetCode/blob/master/random/kt/BestTimeToBuyAndSellStock_121.kt) ，[Leetcode](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+- [141.环形链表](https://github.com/wubobo952/LeetCode/blob/master/random/kt/LinkedListCycle_141.kt) ，[Leetcode](https://leetcode.cn/problems/linked-list-cycle/)
+- [239.滑动窗口最大值](https://github.com/wubobo952/LeetCode/blob/master/random/kt/SlidingWindowMaximum_239.kt) ，[Leetcode](https://leetcode.cn/problems/sliding-window-maximum/)
+
